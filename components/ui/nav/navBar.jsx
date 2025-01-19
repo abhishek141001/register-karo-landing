@@ -2,45 +2,15 @@
 import React, { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { Button } from "../button";
+import { navItems,components } from "@/assets/data";
+import { FaAngleDown } from "react-icons/fa";
+import { FaAngleUp } from "react-icons/fa";
 
 export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  const navItems = [
-    { id: 1, name: "Home", href: "/" },
-    { id: 2, name: "Our Services", href: "/services" },
-    { id: 3, name: "Blog", href: "/blog" },
-    { id: 4, name: "Contact Us", href: "/contact" },
-    { id: 5, name: "About Us", href: "/about" },
-  ];
-
-  const components = [
-    {
-      title: "Alert Dialog",
-      href: "/docs/primitives/alert-dialog",
-    },
-    {
-      title: "Hover Card",
-      href: "/docs/primitives/hover-card",
-    },
-    {
-      title: "Progress",
-      href: "/docs/primitives/progress",
-    },
-    {
-      title: "Scroll-area",
-      href: "/docs/primitives/scroll-area",
-    },
-    {
-      title: "Tabs",
-      href: "/docs/primitives/tabs",
-    },
-    {
-      title: "Tooltip",
-      href: "/docs/primitives/tooltip",
-    },
-  ];
+  
 
   return (
     <header className="bg-white border-b border-gray-200">
@@ -75,7 +45,7 @@ export default function NavBar() {
                     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                   >
                     {item.name}
-                    <span className="ml-1">{isDropdownOpen ? "▲" : "▼"}</span>
+                    <span className="ml-1">{isDropdownOpen ? <FaAngleUp/> : <FaAngleDown/>}</span>
                   </button>
                   {/* Dropdown Menu */}
                   {isDropdownOpen && (
@@ -125,11 +95,11 @@ export default function NavBar() {
                 <li key={item.id} className="w-full">
                   {/* Dropdown Toggle */}
                   <button
-                    className="flex justify-center w-full px-6 py-3 text-gray-800 hover:text-[#FFA229] transition-colors"
+                    className="flex justify-center items-center w-full px-6 py-3 text-gray-800 hover:text-[#FFA229] transition-colors"
                     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                   >
                     {item.name}
-                    <span>{isDropdownOpen ? "▲" : "▼"}</span>
+                    <span>{isDropdownOpen ? <FaAngleUp/> : <FaAngleDown/>}</span>
                   </button>
                   {isDropdownOpen && (
                     <ul className="bg-gray-50 flex flex-col items-center">

@@ -1,4 +1,4 @@
-import { Badge } from "../badge"
+import { Badge } from "./badge"
 
 export default function EachBlog({ img, title, date, discription, author, url, tags }) {
     return (

@@ -1,31 +1,7 @@
+import { figureData } from "@/assets/data"
 export default function ExperienceSection(){
 
-    const figureData = [
-        {
-            count: '1M',
-            title: 'customers'
-        },
-        {
-            count: '12',
-            title: 'years of experience'
-        },
-        {
-            count: '41',
-            title: 'R&D experience'
-        },
-        {
-            count: '78',
-            title: 'countries'
-        },
-        {
-            count: '3287',
-            title: 'partners'
-        },
-        {
-            count: '41',
-            title: 'awards recieved'
-        }
-    ]
+    
 
     const FigureComponent = ({count,title})=>{
         return(

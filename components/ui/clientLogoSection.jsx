@@ -1,27 +1,8 @@
+import { clientLogos } from "@/assets/data"
+
 export default function ClientLogoSection() {
 
-    const clientLogos = [
-        {
-            id: 1,
-            img: "client-logo/client-1.svg"
-        },
-        {
-            id: 2,
-            img: "client-logo/client-2.svg"
-        },
-        {
-            id: 3,
-            img: "client-logo/client-3.svg"
-        },
-        {
-            id: 4,
-            img: "client-logo/client-4.svg"
-        },
-        {
-            id: 5,
-            img: "client-logo/client-5.svg"
-        },
-    ]
+   
 
     return (
         <div className="flex flex-col items-center justify-center text-center gap-12 p-10 xl:p-20">

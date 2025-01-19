@@ -4,60 +4,14 @@ import {
     CarouselItem,
     CarouselNext,
     CarouselPrevious,
-} from "@/components/ui/carousel"
+} from "./carousel"
 import EachTestimonial from "./eachTestimonial"
+import  {testimonials} from '@/assets/data'
 
 
 
 export default function TestimonialSection() {
 
-    const testimonials = [
-        {
-            img: 'https://media.licdn.com/dms/image/v2/D5603AQEfYoJxdIN1fA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724933283200?e=1743033600&v=beta&t=xxxDKBJoiW9nnReWQZ8Av73aH_vw_z0jRAiKTXzfQJY',
-            name: 'John Doe',
-            designation: 'CEO',
-            company: 'Google',
-            country: 'USA',
-            discription: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure sint amet occaecat cupidatat non proident ea commodo consequat aute irure sint amet occaecat cupidatat non proident ',
-            rating: 5,
-        },
-        {
-            img: 'https://media.licdn.com/dms/image/v2/D5603AQEfYoJxdIN1fA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724933283200?e=1743033600&v=beta&t=xxxDKBJoiW9nnReWQZ8Av73aH_vw_z0jRAiKTXzfQJY',
-            name: 'John Doe',
-            designation: 'CEO',
-            company: 'Google',
-            country: 'USA',
-            discription: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure sint amet occaecat cupidatat non proident ea commodo consequat aute irure sint amet occaecat cupidatat non proident ',
-            rating: 5,
-        },
-        {
-            img: 'https://media.licdn.com/dms/image/v2/D5603AQEfYoJxdIN1fA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724933283200?e=1743033600&v=beta&t=xxxDKBJoiW9nnReWQZ8Av73aH_vw_z0jRAiKTXzfQJY',
-            name: 'John Doe',
-            designation: 'CEO',
-            company: 'Google',
-            country: 'USA',
-            discription: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure sint amet occaecat cupidatat non proident ea commodo consequat aute irure sint amet occaecat cupidatat non proident ',
-            rating: 5,
-        },
-        {
-            img: 'https://media.licdn.com/dms/image/v2/D5603AQEfYoJxdIN1fA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724933283200?e=1743033600&v=beta&t=xxxDKBJoiW9nnReWQZ8Av73aH_vw_z0jRAiKTXzfQJY',
-            name: 'John Doe',
-            designation: 'CEO',
-            company: 'Google',
-            country: 'USA',
-            discription: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure sint amet occaecat cupidatat non proident ea commodo consequat aute irure sint amet occaecat cupidatat non proident ',
-            rating: 5,
-        },
-        {
-            img: 'https://media.licdn.com/dms/image/v2/D5603AQEfYoJxdIN1fA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724933283200?e=1743033600&v=beta&t=xxxDKBJoiW9nnReWQZ8Av73aH_vw_z0jRAiKTXzfQJY',
-            name: 'John Doe',
-            designation: 'CEO',
-            company: 'Google',
-            country: 'USA',
-            discription: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure sint amet occaecat cupidatat non proident ea commodo consequat aute irure sint amet occaecat cupidatat non proident ',
-            rating: 5,
-        },
-    ]
 
 
 

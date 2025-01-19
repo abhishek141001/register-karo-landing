@@ -3,12 +3,12 @@ import {
     AccordionContent,
     AccordionItem,
     AccordionTrigger,
-  } from "@/components/ui/accordion"
+  } from "./accordion"
   import { Button } from "../button"
 
 export default function FaqSection() {
     return(
-        <div className="flex flex-col p-20 gap-6 items-center">
+        <div className="flex flex-col p-20 gap-6 items-center text-center">
             <span className="text-sm font-normal text-[#EB8D15]">FAQ</span>
             <h2 className="text-[32px]  text-[#272D37] font-bold ">Frequent ask questions</h2>
             <div className="flex flex-col w-full">

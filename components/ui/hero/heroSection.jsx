@@ -1,22 +1,10 @@
 import { Button } from "../button";
+import { trustItems } from "@/assets/data";
 
 export default function HeroSection() {
     const stars = 5; // Assuming all 5 stars are filled (can be dynamic)
 
-    const trustItems = [
-        {
-            img: 'hero-icons/handSake.svg',
-            value: '4.5+',
-            valueTitle: 'Customer Rating'
-        },
-        {
-            img: 'hero-icons/people.svg',
-            value: '20,000+',
-            valueTitle: 'Clients'
-        },
-
-    ]
-
+    
     const TrustContainer = ({ img, rating, ratingTitle }) => {
         return (
             <div className="flex gap-2 items-center">
@@ -33,8 +21,8 @@ export default function HeroSection() {
 
 
     return (
-        <div className="p-4 py-8 md:p-10 xl:p-20 flex-col  md:flex heroBackground">
-            <div className="flex flex-col w-full lg:max-w-[50%] gap-6">
+        <div className="p-4 py-8 md:p-10 xl:p-20 flex flex-col md:flex-row heroBackground   overflow-hidden w-full">
+            <div className="flex flex-col w-full lg:max-w-[50%] gap-6 ">
                 <div className="flex items-center gap-2">
                     <img src="/hero-icons/goldenStar.svg" alt="gold star" className="h-5 w-5" />
                     <span className="font-bold text-lg">Google Rating</span>

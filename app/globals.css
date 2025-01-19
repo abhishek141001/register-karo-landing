@@ -80,7 +80,14 @@ body {
 
 .heroBackground {
   background: linear-gradient(113.91deg, #FFFFFF 8%, rgba(255, 240, 220, 0.67) 28%, rgba(237, 246, 255, 0.7) 36%);
+ 
+}
 
+
+.heroBgImg{
+  background-image: url('https://s3-alpha-sig.figma.com/img/4832/b8b5/575c56593384938ae90007101259e9d9?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=N3rP9BA6W7aUHLxJgcv9HmF3LPu8U7PLjk2Wi0AYkUJF0KkPnawbDpJObqmRbtOJz5lBUEboyBijw~uHWfccwaTxUc-x8DQxJCHlo-d70wd9pASENaK7r-JBfXtDS8~K6PDauuzRO8iy1yM1CUfPFKIr5BecaA8gRwyX7h7s~92T4vbX9MCpzr6ldpyTvhzgPmLECXIJJ7aSSWeBw~-tIdzq~cKGKt0uzy1tS8JHMuPix~g7MrHneCc8FRHn8OTpEY7jSvwlx5Tn1ujlQi-U~th5wWFoPWhAoCxRwNs8IFE5DneSciB6vba3ApPGWFTqirDxGA5wDu-1zfAxE05eGg__');
+  background-position:bottom right;
+  background-repeat: no-repeat;
 }
 .aboutImgContainer{
   background-image: url('https://s3-alpha-sig.figma.com/img/78f8/096c/dbd2da76442c29194b8d57f4b8a7db2f?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=YPeAxg8ol1UV9DgV4R52FGfL-snZxj8osWSEGdt2Xf2UfuaOdLSsdjLQsRhS3HfXG5OM8wbs9I~~UsHi6HYVl2xTDZf66xi7siUdghWF~KitPheUtUvTuFYP~m6eXdk0hRWvJ5YvyjK4WqJ~15Uqmgmf7N6duA6izxD~qM9ctBF65nlBomyALx61Zxxw7fa8o0rJJOLRPWHM3r~th4i86GYeHOMbPc4fQpKUg~klMmEsTwb~Iad-7L3h~YpVqTAX5Eh6qxgEYbkx5oDJ0-yMZnfJ1UgfzEibD9WEW1p08UewvdabWexFjUbSkRQNRayA6wAgaXEMdza7RGJ9I5v31A__');

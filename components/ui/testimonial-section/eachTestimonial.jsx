@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "../avatar"
+import { Avatar, AvatarFallback, AvatarImage } from "./avatar"
 
 export default function EachTestimonial({ img, name, designation, country, company, discription, rating }) {
     return (

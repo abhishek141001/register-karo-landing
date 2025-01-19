@@ -1,27 +1,7 @@
+import { clients} from "@/assets/data";
+
 const HappyClients = () => {
-    const clients = [
-        { id: 1, logo: "happy-clients/1.svg", alt: "Client 1" },
-        { id: 2, logo: "happy-clients/2.svg", alt: "Client 2" },
-        { id: 3, logo: "happy-clients/3.svg", alt: "Client 3" },
-        { id: 4, logo: "happy-clients/4.svg", alt: "Client 4" },
-        { id: 5, logo: "happy-clients/5.svg", alt: "Client 5" },
-        { id: 6, logo: "happy-clients/6.svg", alt: "Client 6" },
-        { id: 7, logo: "happy-clients/7.svg", alt: "Client 7" },
-        { id: 8, logo: "happy-clients/8.svg", alt: "Client 8" },
-        { id: 9, logo: "happy-clients/9.svg", alt: "Client 9" },
-        { id: 10, logo: "happy-clients/10.svg", alt: "Client 10" },
-        { id: 11, logo: "happy-clients/11.svg", alt: "Client 11" },
-        { id: 12, logo: "happy-clients/12.svg", alt: "Client 12" },
-        { id: 13, logo: "happy-clients/13.svg", alt: "Client 13" },
-        { id: 14, logo: "happy-clients/14.svg", alt: "Client 14" },
-        { id: 15, logo: "happy-clients/15.svg", alt: "Client 15" },
-        { id: 16, logo: "happy-clients/16.svg", alt: "Client 16" },
-        { id: 17, logo: "happy-clients/17.svg", alt: "Client 17" },
-        { id: 18, logo: "happy-clients/18.svg", alt: "Client 18" },
-        { id: 19, logo: "happy-clients/19.svg", alt: "Client 19" },
-        { id: 20, logo: "happy-clients/20.svg", alt: "Client 20" },
-       
-      ];
+    
       
   
     return (
